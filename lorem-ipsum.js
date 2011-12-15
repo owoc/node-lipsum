@@ -225,8 +225,3 @@ LoremIpsum.prototype.gauss = function () {
 LoremIpsum.prototype.gaussMS = function (mean, standard_deviation) {
 	return Math.round(this.gauss() * standard_deviation + mean);
 };
-
-/** @returns {number} Randomly chooses 0 or 1 */
-LoremIpsum.prototype.getRandom01 = function () {
-	return Math.round(Math.random());
-};
