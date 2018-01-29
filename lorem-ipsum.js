@@ -225,3 +225,5 @@ LoremIpsum.prototype.gauss = function () {
 LoremIpsum.prototype.gaussMS = function (mean, standard_deviation) {
 	return Math.round(this.gauss() * standard_deviation + mean);
 };
+
+module.exports = LoremIpsum;
